@@ -1,7 +1,15 @@
 Front : 
-X = X+Cos(Angle)*64
-Y = Y-Sin(Angle)*64
+X( "Player" ) + Cos(Angle( "Player" )) * 64
+Y( "Player" ) - Sin(Angle( "Player" )) * 64
 
 Back: 
-X = X-Cos(Angle)*64
-Y = Y+Sin(Angle)*64
+X( "Player" ) - Cos(Angle( "Player" )) * 64
+Y( "Player" ) + Sin(Angle( "Player" )) * 64
+
+Right :
+X( "Player" ) + Sin(Angle( "Player" )) * 64
+Y( "Player" ) + Cos(Angle( "Player" )) * 64
+
+Left:
+X( "Player" ) - Sin(Angle( "Player" )) * 64
+Y( "Player" ) + Cos(Angle( "Player" )) * 64
