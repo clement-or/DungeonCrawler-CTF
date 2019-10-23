@@ -1,0 +1,7 @@
+Front : 
+X = X+Cos(Angle)*64
+Y = Y-Sin(Angle)*64
+
+Back: 
+X = X-Cos(Angle)*64
+Y = Y+Sin(Angle)*64
